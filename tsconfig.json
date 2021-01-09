@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "strict": false,
+        "outDir": "./lib",
+        "esModuleInterop": false,
+        "typeRoots" : ["./types"],
+        "types" : ["node"]
+    },
+    "include": ["lib", "types/webpackOptions.d.ts", "types/mrcOptions.d.ts"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+}
